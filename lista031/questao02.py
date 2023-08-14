@@ -2,12 +2,12 @@
 #a) Resultado de suas adições
 #b) Resultado de suas multiplicações
 
-print("Me diga quatro números e lhe darei a soma dos quatro números e a multiplicação dos quatro números.")
+print("Me diga quatro números inteiros e lhe darei a soma dos quatro números e a multiplicação dos quatro números.")
 
-v1 = float(input("Informe o primeiro número: "))
-v2 = float(input("Informe o segundo número: "))
-v3 = float(input("Informe o terceiro número: "))
-v4 = float(input("Informe o quarto número: "))
+v1 = int(input("Informe o primeiro número: "))
+v2 = int(input("Informe o segundo número: "))
+v3 = int(input("Informe o terceiro número: "))
+v4 = int(input("Informe o quarto número: "))
 
 soma = v1 + v2 + v3 + v4
 mult = v1 * v2 * v3 * v4
